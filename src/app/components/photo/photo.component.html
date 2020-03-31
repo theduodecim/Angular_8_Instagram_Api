@@ -1,0 +1,14 @@
+<div class="photoContainer">
+  <div class="container">
+    <a [href]="this.instagramPost + link">
+      <img class="img-fluid" width="250" [src]="thumbnailAndlikes.thumbnail_src" target="_blank">
+    </a>
+    <div class="overlay">
+      <a style="text-decoration: none;" [href]="this.instagramPost + link" class="icon" title="User Profile">
+        <i class="far fa-heart x4"></i><span class="ml-3">{{thumbnailAndlikes.edge_media_preview_like.count}}</span>
+      </a>
+    </div>
+  </div>
+  <hr>
+  <p>{{caption}}</p>
+</div>
