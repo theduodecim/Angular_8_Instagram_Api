@@ -34,14 +34,16 @@ ul.grid li {
 }
 
 ul.grid li img {
-  width: 280px;
-  height: 280px;
+  width: 25em;
+  height: 25em;
   display: block;
   border: none;
 }
 
 /*-------------------------
+
   List layout
+
 --------------------------*/
 
 ul.list {
@@ -63,9 +65,7 @@ ul.list li {
 }
 
 ul.list li img {
-  width: 120px;
-  height: 120px;
-  float: left;
+  float: center;
   border: none;
 }
 
